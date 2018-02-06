@@ -1,0 +1,49 @@
+#file{
+    display: none;
+    height: 24px;
+    border-radius: 3px;
+    width: 56%;
+    color: #9cf;
+    background: transparent;
+    border: 1px solid #00d2ff;
+    box-sizing: border-box;
+}
+#uploadFile{
+    margin-top: 10px;
+    width:80%;
+    text-align: left;
+    margin-right: 0;
+    height: 28px;
+    line-height: 28px;
+    border: none;
+    padding: 0 0 0 5px;
+    background: #005c7e;
+    color: #fff;
+    border-radius: 3px;
+}
+.fileIcon{
+    float: right;
+    text-align: center;
+    height: 100%;
+    width: 35px;
+    line-height: 24px;
+    cursor: pointer;
+    background:#00d2ff url(../image/tiaozhuan.svg) center top no-repeat;
+    background-size: 100% 100%;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+#uploadFile{
+    display:inline-block;
+    max-width: 150px;
+    margin-bottom:5px;
+    font-size: 0.6rem;
+    font-weight:700
+}
+#uploadFile span{
+    max-width: 112px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /*white-space: nowrap;*/
+}
